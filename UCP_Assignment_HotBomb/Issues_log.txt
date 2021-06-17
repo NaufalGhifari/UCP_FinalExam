@@ -1,0 +1,42 @@
+CURRENTLY MAIN FOLDER [FUNCTIONAL]
+
+Feature to Add:
+
+
+Completed Tasks:
+- 16:41 02/09: modifying (rearranging) changeSettings() to account for player name [finsihed]
+- 13:14 08/09: implement special ability [implemented]
+- 09/09: implement save feature [implemented 11/09]
+- 09/09: implement Load feature [implemented 11/09]
+- 12/09: debug version of the game [implemented 12/09]
+
+Ongoing:
+- cleanups (linked list) []
+- polish report []
+- testing []
+
+Issues:
+- 19:35 02/09: saving game does not stop the game (possible solus: use global var) [solved]
+- 20:04 02/09: after save, games stops but main menu keeps getting called (unknown) [solved] (by returning 0 instead of calling main menu)
+- 19:35 02/09: player struct values in the settings needs to be reset before rewriting to the txt fie [solved]
+- 10:23 08/09: playersTurn wont print mssg for special (does not execute esle if statement) [solved by using numbered tasks]
+- 08/09: trying to call using func ptr [solved]
+- 08/09: player->specialCounter does not reset to 0 yet. [solved]
+- 08/09: DoubleSP needs tweaking [solved]
+- 08/09: bombDamage writes wrong [solved]
+- 08/09: change settings for spec move does not work properly (double) [solved]
+- 08/09: having issues with what include where (.h files) [solved]
+- 08/09: need to find a way to print out the list [solved]
+- 09/09: the saveList->value changes bc its a pointer, and the int that it points to changes [solved using struct]
+- 09/09: make a "move struct" and add that to the generic linked list (userInput becomes move->UserInput) [done]
+- 09/09: convert void8 into string causes segementation fault [solved]
+- 09/09: problem w reading settigns (if settings missing) needs polishing [solved]
+- 09/09: find a way to do load game [solved]
+- 09/09: trying to save the "current" settings for now [solved]
+- 09/09: make a manual write to the save file for he settings stats [solved]
+- 12/09: player->specialCounter isnt read in readSettings [solved, prob w strstr]
+
+
+Ideas:
+- 08/09: maybe take user input and hold time in playersturn and store it into a linked list.
+- 08/09: we want the first thing in the save file to be something

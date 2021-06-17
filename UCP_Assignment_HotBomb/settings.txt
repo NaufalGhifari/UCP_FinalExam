@@ -1,0 +1,14 @@
+playerOneName=Player_Dos
+playerOneMaxHealth=52
+playerOneHealth=52
+playerOneSpecial=DOUBLE
+playerOneCounter=0
+playerTwoName=Player_Uno
+playerTwoMaxHealth=53
+playerTwoHealth=53
+playerTwoSpecial=HEAL
+playerTwoCounter=0
+bombMaxHealth=10
+bombHealth=10
+bombNormalDamage=25
+bombDamage=25
